@@ -10,6 +10,7 @@ body {
     background-color: #fcfdff;
     padding: 10px;
     margin: auto;
+    width: 510px;
 }
 
 header {
@@ -17,6 +18,15 @@ header {
     width: 510px;
     height: 40px;
     margin-bottom: 10px;
+    clear: both;
+}
+
+#sidebar {
+    background-color: #a9b2a1;
+    width: 120px;
+    height: 380px;
+    margin-bottom: 10px;
+    float: right;
 }
 
 article {
@@ -25,17 +35,11 @@ article {
     height: 120px;
     margin: 0 10px 10px 0;
     cursor: pointer;
+    float: left;
 }
 
 article:hover {
     background-color: #ffeae3;
-}
-
-#sidebar {
-    background-color: #a9b2a1;
-    width: 120px;
-    height: 380px;
-    margin-bottom: 10px;
 }
 
 footer {
